@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+
+"""Send UDP notification."""
+
+import argparse
+import socket
+import sys
+
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Send udp packet to desired address.')
+    parser.add_argument('addr', metavar='ADDR', type=str, nargs=1,
+                        help='address to send to')
+    parser.add_argument('port', metavar='PORT', type=int, nargs=1,
+                        help='port to send to')
+    args = parser.parse_args()
+    addr = args.addr[0]
+    port = args.port[0]
+
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    sock.sendto("foo", (addr, port))
+
+
+if __name__ == '__main__':
+    sys.exit(main())

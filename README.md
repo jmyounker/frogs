@@ -4,6 +4,6 @@
 
 *start.py* beginning of a python program
 
-*udplisten-objc* osx objective-c server that listens on a UDP port.
+*udplisten-objc* osx objective-c server that listens on a UDP port
 
-*udpsend-py* python program that sends data to a UDP port.
+*udpsend* python program that sends data over UDP
