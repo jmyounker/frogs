@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F2DAC621BF682380050AEAC /* ribbit_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DAC611BF682380050AEAC /* ribbit_test.swift */; };
+		1F6BBF681BE68A7500B1AB75 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BBF671BE68A7500B1AB75 /* main.swift */; };
+		1F6BBF771BE6902C00B1AB75 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6BBF751BE6902C00B1AB75 /* CocoaAsyncSocket.framework */; };
+		1F6BBF7A1BE6AC6000B1AB75 /* CocoaAsyncSocket.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F6BBF751BE6902C00B1AB75 /* CocoaAsyncSocket.framework */; };
+		1FFA39691C70902F00420BF2 /* data_structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA39681C70902F00420BF2 /* data_structures.swift */; };
+		1FFA396B1C7090FE00420BF2 /* build_config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA396A1C7090FE00420BF2 /* build_config.swift */; };
+		1FFA396D1C75B87200420BF2 /* mixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA396C1C75B87200420BF2 /* mixer.swift */; };
+		1FFA396F1C75B87E00420BF2 /* audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA396E1C75B87E00420BF2 /* audio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F2DAC671BF682450050AEAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6BBF5C1BE68A7500B1AB75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6BBF631BE68A7500B1AB75;
+			remoteInfo = ribbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F6BBF621BE68A7500B1AB75 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				1F6BBF7A1BE6AC6000B1AB75 /* CocoaAsyncSocket.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F2DAC5F1BF682380050AEAC /* ribbit-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ribbit-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2DAC611BF682380050AEAC /* ribbit_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ribbit_test.swift; sourceTree = "<group>"; };
+		1F2DAC631BF682380050AEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6BBF641BE68A7500B1AB75 /* ribbit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ribbit; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6BBF671BE68A7500B1AB75 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1F6BBF751BE6902C00B1AB75 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		1FFA39681C70902F00420BF2 /* data_structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data_structures.swift; sourceTree = "<group>"; };
+		1FFA396A1C7090FE00420BF2 /* build_config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = build_config.swift; sourceTree = "<group>"; };
+		1FFA396C1C75B87200420BF2 /* mixer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mixer.swift; sourceTree = "<group>"; };
+		1FFA396E1C75B87E00420BF2 /* audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = audio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F2DAC5C1BF682380050AEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6BBF611BE68A7500B1AB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6BBF771BE6902C00B1AB75 /* CocoaAsyncSocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F2DAC601BF682380050AEAC /* ribbit-test */ = {
+			isa = PBXGroup;
+			children = (
+				1F2DAC611BF682380050AEAC /* ribbit_test.swift */,
+				1F2DAC631BF682380050AEAC /* Info.plist */,
+			);
+			path = "ribbit-test";
+			sourceTree = "<group>";
+		};
+		1F6BBF5B1BE68A7500B1AB75 = {
+			isa = PBXGroup;
+			children = (
+				1F6BBF751BE6902C00B1AB75 /* CocoaAsyncSocket.framework */,
+				1F6BBF661BE68A7500B1AB75 /* ribbit */,
+				1F2DAC601BF682380050AEAC /* ribbit-test */,
+				1F6BBF651BE68A7500B1AB75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F6BBF651BE68A7500B1AB75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6BBF641BE68A7500B1AB75 /* ribbit */,
+				1F2DAC5F1BF682380050AEAC /* ribbit-test.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F6BBF661BE68A7500B1AB75 /* ribbit */ = {
+			isa = PBXGroup;
+			children = (
+				1F6BBF671BE68A7500B1AB75 /* main.swift */,
+				1FFA39681C70902F00420BF2 /* data_structures.swift */,
+				1FFA396A1C7090FE00420BF2 /* build_config.swift */,
+				1FFA396C1C75B87200420BF2 /* mixer.swift */,
+				1FFA396E1C75B87E00420BF2 /* audio.swift */,
+			);
+			path = ribbit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F2DAC5E1BF682380050AEAC /* ribbit-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2DAC661BF682380050AEAC /* Build configuration list for PBXNativeTarget "ribbit-test" */;
+			buildPhases = (
+				1F2DAC5B1BF682380050AEAC /* Sources */,
+				1F2DAC5C1BF682380050AEAC /* Frameworks */,
+				1F2DAC5D1BF682380050AEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F2DAC681BF682450050AEAC /* PBXTargetDependency */,
+			);
+			name = "ribbit-test";
+			productName = "ribbit-test";
+			productReference = 1F2DAC5F1BF682380050AEAC /* ribbit-test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F6BBF631BE68A7500B1AB75 /* ribbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6BBF6B1BE68A7500B1AB75 /* Build configuration list for PBXNativeTarget "ribbit" */;
+			buildPhases = (
+				1F6BBF601BE68A7500B1AB75 /* Sources */,
+				1F6BBF611BE68A7500B1AB75 /* Frameworks */,
+				1F6BBF621BE68A7500B1AB75 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ribbit;
+			productName = ribbit;
+			productReference = 1F6BBF641BE68A7500B1AB75 /* ribbit */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F6BBF5C1BE68A7500B1AB75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "The Blobshop";
+				TargetAttributes = {
+					1F2DAC5E1BF682380050AEAC = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					1F6BBF631BE68A7500B1AB75 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F6BBF5F1BE68A7500B1AB75 /* Build configuration list for PBXProject "ribbit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F6BBF5B1BE68A7500B1AB75;
+			productRefGroup = 1F6BBF651BE68A7500B1AB75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6BBF631BE68A7500B1AB75 /* ribbit */,
+				1F2DAC5E1BF682380050AEAC /* ribbit-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F2DAC5D1BF682380050AEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2DAC5B1BF682380050AEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2DAC621BF682380050AEAC /* ribbit_test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6BBF601BE68A7500B1AB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6BBF681BE68A7500B1AB75 /* main.swift in Sources */,
+				1FFA39691C70902F00420BF2 /* data_structures.swift in Sources */,
+				1FFA396B1C7090FE00420BF2 /* build_config.swift in Sources */,
+				1FFA396D1C75B87200420BF2 /* mixer.swift in Sources */,
+				1FFA396F1C75B87E00420BF2 /* audio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F2DAC681BF682450050AEAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6BBF631BE68A7500B1AB75 /* ribbit */;
+			targetProxy = 1F2DAC671BF682450050AEAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F2DAC641BF682380050AEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ribbit-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theblobshop.ribbit-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F2DAC651BF682380050AEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ribbit-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theblobshop.ribbit-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F6BBF691BE68A7500B1AB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F6BBF6A1BE68A7500B1AB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F6BBF6C1BE68A7500B1AB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F6BBF6D1BE68A7500B1AB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F2DAC661BF682380050AEAC /* Build configuration list for PBXNativeTarget "ribbit-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2DAC641BF682380050AEAC /* Debug */,
+				1F2DAC651BF682380050AEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6BBF5F1BE68A7500B1AB75 /* Build configuration list for PBXProject "ribbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6BBF691BE68A7500B1AB75 /* Debug */,
+				1F6BBF6A1BE68A7500B1AB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6BBF6B1BE68A7500B1AB75 /* Build configuration list for PBXNativeTarget "ribbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6BBF6C1BE68A7500B1AB75 /* Debug */,
+				1F6BBF6D1BE68A7500B1AB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F6BBF5C1BE68A7500B1AB75 /* Project object */;
+}
